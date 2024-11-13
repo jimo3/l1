@@ -18,7 +18,7 @@ const frames = createFrames({
 
 const handleRequest = frames(async (ctx) => {
   return {
-    image:  '${appURL()}/002.png',
+    image: `${appURL()}/002.png`,
     buttons: [
       <Button action="post" target="/">
         最初のページへ
